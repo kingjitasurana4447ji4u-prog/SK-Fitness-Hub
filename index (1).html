@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="SK Fitness Hub — Unleash your power. Premium gym & fitness center with world-class trainers, modern equipment, and transformative programs.">
+  <title>SK Fitness Hub — Unleash Your Power</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏋️</text></svg>">
+</head>
+<body>
+
+  <!-- LOADER -->
+  <div id="loader">
+    <div class="loader-content">
+      <div class="loader-text">SK Fitness</div>
+      <div class="loader-bar"></div>
+    </div>
+  </div>
+
+  <!-- CUSTOM CURSOR -->
+  <div class="cursor" id="cursor"></div>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="#" class="logo"><span>SK</span> FITNESS HUB</a>
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#programs">Programs</a>
+        <a href="#trainers">Trainers</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#testimonials">Reviews</a>
+        <a href="#contact" class="nav-cta">Join Now</a>
+      </div>
+      <div class="menu-toggle" id="menuToggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <img src="images/hero-bg.jpg" alt="Fitness training">
+    </div>
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <div class="hero-badge">
+        <span class="dot"></span>
+        Now Open — Limited Memberships
+      </div>
+      <h1>
+        <div class="line"><span>Unleash</span></div>
+        <div class="line"><span>Your</span></div>
+        <div class="line"><span class="outline-text">Power</span></div>
+      </h1>
+      <p class="hero-desc">
+        Transform your body, sharpen your mind, and break every limit. SK Fitness Hub is where champions are forged through sweat, discipline, and relentless grit.
+      </p>
+      <div class="hero-actions">
+        <a href="#pricing" class="btn-primary">
+          <span>Start Today</span>
+          <span class="arrow">→</span>
+        </a>
+        <a href="#programs" class="btn-outline">Explore Programs</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <div class="stat-number" data-count="500">0</div>
+          <div class="stat-label">Active Members</div>
+        </div>
+        <div class="stat">
+          <div class="stat-number" data-count="15">0</div>
+          <div class="stat-label">Expert Trainers</div>
+        </div>
+        <div class="stat">
+          <div class="stat-number" data-count="8">0</div>
+          <div class="stat-label">Years Strong</div>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee-section">
+    <div class="marquee-track">
+      <span>Strength Training</span>
+      <span>HIIT Workouts</span>
+      <span>CrossFit</span>
+      <span>Boxing</span>
+      <span>Yoga Flow</span>
+      <span>Nutrition Plans</span>
+      <span>Personal Training</span>
+      <span>Body Building</span>
+      <span>Strength Training</span>
+      <span>HIIT Workouts</span>
+      <span>CrossFit</span>
+      <span>Boxing</span>
+      <span>Yoga Flow</span>
+      <span>Nutrition Plans</span>
+      <span>Personal Training</span>
+      <span>Body Building</span>
+    </div>
+  </div>
+
+  <!-- ABOUT -->
+  <section class="about section-padding" id="about">
+    <div class="container about-grid">
+      <div class="about-image reveal-left">
+        <img src="images/about-gym.jpg" alt="SK Fitness Hub gym interior">
+        <div class="about-image-overlay">
+          <span class="tag">Est. 2018</span>
+        </div>
+      </div>
+      <div class="about-text reveal-right">
+        <div class="section-label">Who We Are</div>
+        <h2>Built for<br>Warriors</h2>
+        <p>
+          SK Fitness Hub isn't just a gym — it's a battleground for those who refuse to settle. We combine cutting-edge equipment with elite-level coaching to create an environment where transformation isn't just possible — it's inevitable.
+        </p>
+        <p>
+          Every square foot of our facility is designed to push you past your limits. From our industrial-grade weight room to our dedicated functional training zones, every detail serves one purpose: your evolution.
+        </p>
+        <div class="feature-list">
+          <div class="feature-item">
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24"><path d="M20.57 14.86L22 13.43 20.57 12 17 15.57 8.43 7 12 3.43 10.57 2 9.14 3.43 7.71 2 5.57 4.14 4.14 2.71 2.71 4.14l1.43 1.43L2 7.71l1.43 1.43L2 10.57 3.43 12 7 8.43 15.57 17 12 20.57 13.43 22l1.43-1.43L16.29 22l2.14-2.14 1.43 1.43 1.43-1.43-1.43-1.43L22 16.29z"/></svg>
+            </div>
+            <h4>Elite Equipment</h4>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
+            </div>
+            <h4>Certified Trainers</h4>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg>
+            </div>
+            <h4>24/7 Access</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROGRAMS -->
+  <section class="programs section-padding" id="programs">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label" style="justify-content: center;">Our Programs</div>
+        <h2>Train Like a<br>Beast</h2>
+        <p>From explosive HIIT to focused strength building — our programs are engineered for serious results.</p>
+      </div>
+      <div class="programs-grid">
+        <div class="program-card reveal">
+          <div class="program-number">01</div>
+          <h3>Strength & Power</h3>
+          <p>Heavy lifting protocols designed to build raw power, increase muscle mass, and forge an unbreakable foundation.</p>
+          <a href="#" class="program-link">
+            Learn More <span class="arrow">→</span>
+          </a>
+        </div>
+        <div class="program-card reveal">
+          <div class="program-number">02</div>
+          <h3>HIIT Inferno</h3>
+          <p>High-intensity interval training that incinerates fat, boosts metabolism, and pushes cardiovascular limits to the edge.</p>
+          <a href="#" class="program-link">
+            Learn More <span class="arrow">→</span>
+          </a>
+        </div>
+        <div class="program-card reveal">
+          <div class="program-number">03</div>
+          <h3>Combat Boxing</h3>
+          <p>Learn the sweet science. Build speed, coordination, and explosive power through authentic boxing training methodology.</p>
+          <a href="#" class="program-link">
+            Learn More <span class="arrow">→</span>
+          </a>
+        </div>
+        <div class="program-card reveal">
+          <div class="program-number">04</div>
+          <h3>CrossFit WOD</h3>
+          <p>Functional fitness at its finest. Varied, high-intensity workouts designed to prepare you for any physical challenge.</p>
+          <a href="#" class="program-link">
+            Learn More <span class="arrow">→</span>
+          </a>
+        </div>
+        <div class="program-card reveal">
+          <div class="program-number">05</div>
+          <h3>Yoga & Recovery</h3>
+          <p>Balance your grind with recovery. Deep stretching, mobility work, and mindfulness for total body restoration.</p>
+          <a href="#" class="program-link">
+            Learn More <span class="arrow">→</span>
+          </a>
+        </div>
+        <div class="program-card reveal">
+          <div class="program-number">06</div>
+          <h3>Personal Training</h3>
+          <p>One-on-one sessions tailored to your goals. Custom programming, form correction, and accountability from elite coaches.</p>
+          <a href="#" class="program-link">
+            Learn More <span class="arrow">→</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS BANNER -->
+  <div class="stats-banner">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-block reveal">
+          <div class="number" data-count="15000">0</div>
+          <div class="label">Sq. Ft. Facility</div>
+        </div>
+        <div class="stat-block reveal">
+          <div class="number" data-count="50">0</div>
+          <div class="label">Classes Weekly</div>
+        </div>
+        <div class="stat-block reveal">
+          <div class="number" data-count="98">0</div>
+          <div class="label">% Satisfaction</div>
+        </div>
+        <div class="stat-block reveal">
+          <div class="number" data-count="24">0</div>
+          <div class="label">/ 7 Open</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- TRAINERS -->
+  <section class="trainers section-padding" id="trainers">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label" style="justify-content: center;">Meet The Team</div>
+        <h2>Elite<br>Coaches</h2>
+        <p>Our trainers don't just instruct — they inspire, push, and transform. Meet your future mentors.</p>
+      </div>
+      <div class="trainers-grid">
+        <div class="trainer-card reveal">
+          <img src="images/trainer-alex.jpg" alt="Coach Alex Rivera">
+          <div class="trainer-info">
+            <h3>Alex Rivera</h3>
+            <div class="role">Head Strength Coach</div>
+            <div class="trainer-socials">
+              <a href="#">IG</a>
+              <a href="#">TW</a>
+              <a href="#">LI</a>
+            </div>
+          </div>
+        </div>
+        <div class="trainer-card reveal">
+          <img src="images/trainer-sarah.jpg" alt="Coach Sarah Chen">
+          <div class="trainer-info">
+            <h3>Sarah Chen</h3>
+            <div class="role">HIIT & Boxing Specialist</div>
+            <div class="trainer-socials">
+              <a href="#">IG</a>
+              <a href="#">TW</a>
+              <a href="#">LI</a>
+            </div>
+          </div>
+        </div>
+        <div class="trainer-card reveal">
+          <img src="images/trainer-marcus.jpg" alt="Coach Marcus James">
+          <div class="trainer-info">
+            <h3>Marcus James</h3>
+            <div class="role">CrossFit & Functional</div>
+            <div class="trainer-socials">
+              <a href="#">IG</a>
+              <a href="#">TW</a>
+              <a href="#">LI</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRICING -->
+  <section class="pricing section-padding" id="pricing">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label" style="justify-content: center;">Membership Plans</div>
+        <h2>Invest In<br>Yourself</h2>
+        <p>No contracts, no hidden fees. Just results. Choose the plan that matches your ambition.</p>
+      </div>
+      <div class="pricing-grid">
+        <!-- STARTER -->
+        <div class="pricing-card reveal">
+          <div class="pricing-name">Starter</div>
+          <div class="pricing-price">$29 <span>/ month</span></div>
+          <div class="pricing-desc">Perfect for beginners ready to start their fitness journey.</div>
+          <ul class="pricing-features">
+            <li><span class="check">✓</span> Full gym access</li>
+            <li><span class="check">✓</span> Locker room access</li>
+            <li><span class="check">✓</span> 2 group classes/week</li>
+            <li><span class="check">✓</span> Fitness assessment</li>
+            <li><span class="check">✓</span> Mobile app access</li>
+          </ul>
+          <a href="#" class="pricing-btn">Get Started</a>
+        </div>
+        <!-- PRO -->
+        <div class="pricing-card featured reveal">
+          <div class="pricing-name">Pro Warrior</div>
+          <div class="pricing-price">$59 <span>/ month</span></div>
+          <div class="pricing-desc">For serious athletes who demand the most from their training.</div>
+          <ul class="pricing-features">
+            <li><span class="check">✓</span> Unlimited gym access</li>
+            <li><span class="check">✓</span> All group classes</li>
+            <li><span class="check">✓</span> 4 PT sessions/month</li>
+            <li><span class="check">✓</span> Nutrition planning</li>
+            <li><span class="check">✓</span> Recovery zone access</li>
+            <li><span class="check">✓</span> Guest passes (2/month)</li>
+          </ul>
+          <a href="#" class="pricing-btn">Get Started</a>
+        </div>
+        <!-- ELITE -->
+        <div class="pricing-card reveal">
+          <div class="pricing-name">Elite Beast</div>
+          <div class="pricing-price">$99 <span>/ month</span></div>
+          <div class="pricing-desc">The ultimate package for those who accept nothing less than elite.</div>
+          <ul class="pricing-features">
+            <li><span class="check">✓</span> 24/7 VIP access</li>
+            <li><span class="check">✓</span> Unlimited PT sessions</li>
+            <li><span class="check">✓</span> Custom meal plans</li>
+            <li><span class="check">✓</span> Recovery & spa access</li>
+            <li><span class="check">✓</span> Priority booking</li>
+            <li><span class="check">✓</span> Merchandise discount</li>
+          </ul>
+          <a href="#" class="pricing-btn">Get Started</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials section-padding" id="testimonials">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label" style="justify-content: center;">Testimonials</div>
+        <h2>What They<br>Say</h2>
+      </div>
+      <div class="testimonial-slider reveal">
+        <div class="testimonial-track" id="testimonialTrack">
+          <div class="testimonial-item">
+            <div class="testimonial-quote">"</div>
+            <p class="testimonial-text">SK Fitness Hub completely transformed my life. I lost 30 pounds in 4 months and gained confidence I never knew existed. The trainers push you just hard enough to break through every wall.</p>
+            <div class="testimonial-author">Jake Morrison</div>
+            <div class="testimonial-role">Member since 2022</div>
+          </div>
+          <div class="testimonial-item">
+            <div class="testimonial-quote">"</div>
+            <p class="testimonial-text">The atmosphere here is electric. Every time I walk in, I feel the energy that drives me to go harder. The community, the coaches, the equipment — everything is world-class.</p>
+            <div class="testimonial-author">Priya Sharma</div>
+            <div class="testimonial-role">Pro Warrior Member</div>
+          </div>
+          <div class="testimonial-item">
+            <div class="testimonial-quote">"</div>
+            <p class="testimonial-text">As a competitive athlete, I need a facility that matches my intensity. SK Fitness Hub exceeded every expectation. The strength coaching here is absolutely elite-level.</p>
+            <div class="testimonial-author">Marcus Williams</div>
+            <div class="testimonial-role">Elite Beast Member</div>
+          </div>
+        </div>
+        <div class="testimonial-nav">
+          <button id="prevBtn" aria-label="Previous testimonial">←</button>
+          <button id="nextBtn" aria-label="Next testimonial">→</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section" id="contact">
+    <div class="container">
+      <h2 class="reveal">Stop Thinking.<br>Start Training.</h2>
+      <p class="reveal">Your transformation begins the moment you decide to show up. Join SK Fitness Hub today and become the strongest version of yourself.</p>
+      <a href="#pricing" class="btn-dark reveal">
+        <span>Claim Your Spot</span>
+        <span>→</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#" class="logo"><span>SK</span> FITNESS HUB</a>
+          <p>Where warriors are made. Premium fitness facility with world-class coaching, cutting-edge equipment, and an unmatched training atmosphere.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <a href="#about">About Us</a>
+          <a href="#programs">Programs</a>
+          <a href="#trainers">Trainers</a>
+          <a href="#pricing">Pricing</a>
+          <a href="#testimonials">Reviews</a>
+        </div>
+        <div class="footer-col">
+          <h4>Programs</h4>
+          <a href="#">Strength & Power</a>
+          <a href="#">HIIT Inferno</a>
+          <a href="#">Combat Boxing</a>
+          <a href="#">CrossFit WOD</a>
+          <a href="#">Yoga & Recovery</a>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <a href="#">info@skfitnesshub.com</a>
+          <a href="#">+1 (555) 987-6543</a>
+          <a href="#">123 Iron Street, Gym City</a>
+          <a href="#">Mon-Sun: 24/7</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 SK Fitness Hub. All rights reserved. Built with 💪</p>
+        <div class="footer-socials">
+          <a href="#" aria-label="Instagram">IG</a>
+          <a href="#" aria-label="Twitter">TW</a>
+          <a href="#" aria-label="Facebook">FB</a>
+          <a href="#" aria-label="YouTube">YT</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- BACK TO TOP -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
